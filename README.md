@@ -3,6 +3,6 @@ This function takes a list of strings and returns each line prepended by the cor
 
 number([]) -> []
 
-number(["a", "b", "c", "d", "e"]) -> ["1: a", "2: b", "3: c"]
+number(["a", "b", "c", "d", "e"]) -> ["1: a", "2: b", "3: c", "4: d", "5: e"]
 
 number(["", "", "", "", ""]) -> ["1: ", "2: ", "3: ", "4: ", "5: "]
